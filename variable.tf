@@ -20,3 +20,8 @@ variable "project_name" {
   type        = string
   default     = "ecommerce"
 }
+
+variable "web_instance_count" {
+  description = "Number of web application EC2 instances"
+  type        = number
+}
